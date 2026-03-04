@@ -16,12 +16,15 @@ public class MTitik {
         T1.geser(3,4);
         T1.printTitik();
 
-        T1.getKuadran();
+        int kuadran =T1.getKuadran();
+        System.out.println("Titik berada pada kuadran " + kuadran);
 
-        T1.getJarakPusat();
+        double jarakPusat = T1.getJarakPusat();
+        System.out.println("Jarak titik ke pusat: " + jarakPusat);
 
         Titik T3 = new Titik(5, 5);
-        T1.getJarak(T3);
+        double jarak = T1.getJarak(T3);
+        System.out.println("Jarak antara titik T1 dan T3: " + jarak);
 
         T1.refleksiX();
         T1.printTitik();
