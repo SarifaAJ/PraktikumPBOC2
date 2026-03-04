@@ -4,6 +4,7 @@
  * Tanggal      : 4 Maret 2026
  */
 
+
 public class Garis {
     
 }
