@@ -15,6 +15,19 @@ public class MGaris {
         Titik T2 = new Titik(5,9);
         G1.setTitikAkhir(T2);
 
+        double getPanjang = G1.getPanjang();
+        System.out.println("Panjang garis: " + getPanjang);
+
+        double getGradien = G1.getGradien();
+        System.out.println("Gradien garis: " + getGradien);
+
+        Titik titikTengah = G1.getTitikTengah();
+        System.out.println("Titik tengah: " + titikTengah);
+
+        G1.isSejajar(G1);
+        G1.isTegakLurus(G1);
+        G1.getPersamaanGaris();
         
+        G1.printGaris();
     }
 }
