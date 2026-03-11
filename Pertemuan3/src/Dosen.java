@@ -13,14 +13,14 @@ public class Dosen {
     /* * * METHOD * * */
 
     /* KONSTRUKTOR */
-    //tanpa parameter
+    //membuat objek Dosen tanpa parameter
     public Dosen() {
         this.NIP = "";
         this.Nama = "";
         this.Prodi = "";
     }
 
-    //dengan parameter
+    //membuat objek Dosen dengan parameter
     public Dosen(String NIP, String Nama, String Prodi) {
         this.NIP = NIP;
         this.Nama = Nama;
@@ -28,33 +28,33 @@ public class Dosen {
     }
 
     /* SELEKTOR */
-    //get NIP
+    //mengambil nilai NIP
     public String getNIP(){
         return NIP;
     }
 
-    //get Nama
+    //mengambil nilai Nama
     public String getNama(){
         return Nama;
     }
 
-    //get Prodi
+    //mengambil nilai Prodi
     public String getProdi(){
         return Prodi;
     }
 
     /* MUTATOR */
-    //set NIP
+    //mengubah nilai NIP
     public void setNIP(String NIP){
         this.NIP = NIP;
     }
 
-    //setNama
+    //mengubah nilai Nama
     public void setNama(String Nama){
         this.Nama = Nama;
     }
 
-    //set Prodi
+    //mengubah nilai Prodi
     public void setProdi(String Prodi){
         this.Prodi = Prodi;
     }
