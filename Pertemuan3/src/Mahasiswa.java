@@ -18,7 +18,7 @@ public class Mahasiswa {
     /* * * METHOD * * */
 
     /* KONSTRUKTOR */
-    //tanpa parameter
+    //membuat objek Mahasiswa tanpa parameter
     public Mahasiswa(){
         this.nim = "";
         this.nama = "";
@@ -28,7 +28,7 @@ public class Mahasiswa {
         this.kendaraan = new Kendaraan();
     }
 
-    //dengan parameter
+    //membuat objek Mahasiswa dengan parameter
     public Mahasiswa(String nim, String nama, String prodi){
         this.nim = nim;
         this.nama = nama;
@@ -39,64 +39,64 @@ public class Mahasiswa {
     }
 
     /* SELEKTOR */
-    //get nim
+    //mengambil nilai nim
     public String getNIM(){
         return this.nim;
     }
 
-    //get nama
+    //mengambil nilai nama
     public String getNama(){
         return this.nama;
     }
 
-    //get prodi
+    //mengambil nilai prodi
     public String getProdi(){
         return this.prodi;
     }
 
-    //get listMatKul
+    //mengambil nilai listMatKul
     public ArrayList<MataKuliah> getListMatKul(){
         return this.listMatKul;
     }
 
-    //get dosen
+    //mengambil nilai dosen
     public Dosen getDosenWali(){
         return this.dosenWali;
     }
 
-    //get kendaraan
+    //mengambil nilai kendaraan
     public Kendaraan getKendaraan(){
         return this.kendaraan;
     }
 
 
     /* MUTATOR */
-    //set nim
+    //mengubah nilai nim
     public void setNIM(String nim){
         this.nim = nim;
     }
 
-    //set nama
+    //mengubah nilai nama
     public void setNama(String nama){
         this.nama = nama;
     }
 
-    //set prodi
+    //mengubah nilai prodi
     public void setProdi(String prodi){
         this.prodi = prodi;
     }
 
-    //set listMatKul
+    //mengubah nilai listMatKul
     public void setListMatKul(ArrayList<MataKuliah> listMatKul) {
         this.listMatKul = listMatKul;
     }
 
-    //set dosen
+    //mengubah nilai dosen
     public void setDosenWali(Dosen dosenWali){
         this.dosenWali = dosenWali;
     }
 
-    //set kendaraan
+    //mengubah nilai kendaraan
     public void setKendaraan(Kendaraan kendaraan){
         this.kendaraan = kendaraan;
     }

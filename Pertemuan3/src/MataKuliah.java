@@ -13,14 +13,14 @@ public class MataKuliah {
     /* * * METHOD * * */
 
     /* KONSTRUKTOR */
-    //tanpa parameter
+    //membuat objek MataKuliah tanpa parameter
     public MataKuliah() {
         this.idMatKul = "";
         this.namaMatKul = "";
         this.SKS = 0;
     }
 
-    //dengan parameter
+    //membuat objek MataKuliah dengan parameter
     public MataKuliah(String idMatKul, String namaMatKul, int SKS){
         this.idMatKul = idMatKul;
         this.namaMatKul = namaMatKul;
@@ -28,33 +28,33 @@ public class MataKuliah {
     }
 
     /* SELEKTOR */
-    //get idMatKul
+    //mengambil nilai idMatKul
     public String getIdMatKul(){
         return this.idMatKul;
     }
 
-    //get namaMatKul
+    //mengambil nilai namaMatKul
     public String getNamaMatKul(){
         return this.namaMatKul;
     }
 
-    //get SKS
+    //mengambil nilai SKS
     public int getSKS(){
         return this.SKS;
     }
 
     /* MUTATOR */
-    //set idMatKul
+    //mengubah nilai idMatKul
     public void setIdMatKul(String idMatKul){
         this.idMatKul = idMatKul;
     }
 
-    //set namaMatKul
+    //mengubah nilai namaMatKul
     public void setNamaMatKul(String namaMatKul){
         this.namaMatKul = namaMatKul;
     }
 
-    //set SKS
+    //mengubah nilai SKS
     public void setSKS(int SKS){
         this.SKS = SKS;
     }

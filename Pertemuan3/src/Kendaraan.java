@@ -12,36 +12,36 @@ public class Kendaraan {
     /* * * METHOD * * */
 
     /* KONSTRUKTOR */
-    //tanpa parameter
+    //membuat objek Kendaraan tanpa parameter
     public Kendaraan(){
         this.noPlat = "";
         this.jenis = "";
     }
 
-    //dengan parameter
+    //membuat objek Kendaraan dengan parameter
     public Kendaraan(String noPlat, String jenis){
         this.noPlat = noPlat;
         this.jenis = jenis;
     }
 
     /* SELEKTOR */
-    //get noPlat
+    //mengambil nilai noPlat
     public String getNoPlat(){
         return noPlat;
     }
 
-    //get jenis
+    //mengambil nilai jenis
     public String getJenis(){
         return jenis;
     }
 
     /* MUTATOR */
-    //set noPlat
+    //mengubah nilai noPlat
     public void setNoPlat(String noPlat){
         this.noPlat = noPlat;
     }
 
-    //set jenis
+    //mengubah nilai jenis
     public void setJenis(String jenis){
         this.jenis = jenis;
     }
