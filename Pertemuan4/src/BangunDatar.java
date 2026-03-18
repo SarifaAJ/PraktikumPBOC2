@@ -30,38 +30,45 @@ public class BangunDatar {
     }
 
     /* SELEKTOR */
+    //mengembalikan nilai jumlah sisi
     public int getJmlSisi(){
         return jmlSisi;
     }
 
+    //mengembalikan nilai warna
     public String getWarna(){
         return warna;
     }
 
+    //mengembalikan nilai border
     public String getBorder(){
         return border;
     }
 
     /* MUTATOR */
+    //mengubah nilai jumlah sisi
     public void setJmlSisi(int jmlSisi){
         this.jmlSisi = jmlSisi;
     }
 
+    //mengubah nilai warna
     public void setWarna(String warna){
         this.warna = warna;
     }
 
+    //mengubah nilai border
     public void setBorder(String border){
         this.border = border;
     }
 
+    //menampilkan informasi BangunDatar
     public void printInfo(){
         System.out.println("Jumlah sisi: " +jmlSisi);
         System.out.println("Warna: " + warna);
         System.out.println("Border: " + border);
     }
 
-    public static void printCounterBangunDatar(){
+    /*public static void printCounterBangunDatar(){
         System.out.println("Jumlah Objek Bangun Datar: " + counterBangunDatar);
-    }
+    }*/
 }
