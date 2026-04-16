@@ -1,3 +1,8 @@
+/* Nama File    : MManusia.java 
+ * Deskripsi    : berisi aimplementasi dari class-class ynag sudah dibuat
+ * Pembuat      : Sarifa Nuha Ardanti Jusmar
+ * Tanggal      : 16 April 2026
+ */
 import java.time.LocalDate;
 
 public class MManusia {
